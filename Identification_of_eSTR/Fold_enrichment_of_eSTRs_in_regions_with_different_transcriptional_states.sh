@@ -1,0 +1,1 @@
+python2 /home/tanxy/.local/bin/gat-run.py --ignore-segment-tracks --segments=eSTRsites.txt --annotations=Allrevisedleaves.txt --workspace=chromosome.txt --num-samples=1000 --log=gat.log > Allleaves.out

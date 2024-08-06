@@ -1,0 +1,11 @@
+lobSTR-bin-Linux-x86_64-4.0.6/bin/allelotype \
+--command classify \
+--bam $sample.bam \
+--noise_model illumina_v3.pcrfree \
+--out $sample_res
+--strinfo strinfo.tab \
+--index-prefix $lobSTR_index \
+--filter-mapq0 \
+--filter-clipped \
+--max-repeats-in-ends 3 \
+--min-read-end-match 10  \
